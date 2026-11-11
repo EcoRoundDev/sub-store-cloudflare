@@ -33,7 +33,7 @@ node --input-type=module -e "import{randomBytes as r}from'node:crypto';console.l
 - 把仓库导入到你的 GitHub/GitLab 账号；
 - 创建 Worker；
 - 自动创建或选择 D1 数据库；
-- 要求你填写两个 Token；
+- 要求你填写两个 Token；（实测没有提示这两个token填写）
 - 执行 `pnpm run build` 和 `pnpm run deploy`。
 
 两个 Secret 输入框必须填写你刚生成的不同随机值。
